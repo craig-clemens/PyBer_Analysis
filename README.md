@@ -4,10 +4,6 @@
 This analysis’ goal is to create a multiple-line graph that shows the total weekly fares for each city type: urban, suburban, and rural. For this challenge, I created a summary data frame that combined total rides, total drivers, total fares, average fare per ride, and average fare per driver and plotted it on a  multiple line graph.
 
 ## Results
-
-With the multiple-line chart, we are able to compare total fares by city type over a period of five months. The number of rides seem peak at the end of February and fluctuates during the month of March. All the graphs tend to follow the same trend throughout these months, except for the trend in suburban cities, where we see a sharper increase during the month of April. 
-
-## Results
 Once the summary data frame is created, the trend between city type, the total number of rides, total fare, and total number of drivers becomes evident. The total number of rides, fares and drivers decreases from Urban to Suburban to Rural communities, while the average fare per rider becomes greater. This may be skewed by the average distance per ride, thereby affecting the fare per ride, however the data is clear that with less drivers in rural communities, the average fare per driver increases as the overall supply of drivers is low - even when normalized for demand. By plotting this data on the multiple line chart we can visualize the total fares by city type over five months. With the exception of an outlier peak of suburban rides in the month of April, the city types trend similarly from month to month, peaking in February and fluctuating throughout this period.
 ![Fig8](https://github.com/craig-clemens/PyBer_Analysis/blob/main/analysis/Fig8.png)
 
